@@ -16,7 +16,5 @@ public interface Articulo {
 	
 	public int getCantidad();
 
-	public int getCantidadMin();
-
 	
 }

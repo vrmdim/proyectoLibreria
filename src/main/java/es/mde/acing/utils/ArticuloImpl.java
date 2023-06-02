@@ -8,7 +8,6 @@ public class ArticuloImpl implements Articulo {
 	private String descripcion;
 	private double precio;
 	private int cantidad;
-	private int cantidadMin;
 	private AlmacenImpl almacen;
 	private List<Orden> ordenes;
 
@@ -48,17 +47,12 @@ public class ArticuloImpl implements Articulo {
 	public void setCantidad(int cantidad) {
 		this.cantidad = cantidad;
 	}
-	public int getCantidadMin() {
-		return cantidadMin;
-	}
-	public void setCantidadMin(int cantidadMin) {
-		this.cantidadMin = cantidadMin;
-	}
 	@Override
 	public String toString() {
-		return "Articulo [codigo=" + codigo + ", descripcion=" + descripcion + ", precio=" + precio + ", cantidad="
-				+ cantidad + ", cantidadMin=" + cantidadMin + ", almacen=" + almacen + ", ordenes=" + ordenes + "]";
+		return "ArticuloImpl [codigo=" + codigo + ", descripcion=" + descripcion + ", precio=" + precio + ", cantidad="
+				+ cantidad + ", almacen=" + almacen + ", ordenes=" + ordenes + "]";
 	}
+
 	
 	
 	
