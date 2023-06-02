@@ -3,7 +3,7 @@ package es.mde.acing.utils;
 
 import java.util.List;
 
-public class AlmacenImpl {
+public class AlmacenImpl implements Almacen{
 	
 	private String nombre;
 	private List<Articulo> articulos;
