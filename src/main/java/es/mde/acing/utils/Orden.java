@@ -1,5 +1,6 @@
 package es.mde.acing.utils;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public abstract class Orden {
@@ -7,7 +8,7 @@ public abstract class Orden {
 	private int numeroOrden;
 	private String proveedor;
 	private double costeTotal;
-	private List<Articulo> articulos;
+	private List<Articulo> articulos = new ArrayList<>();
 	
 	
 	public int getNumeroOrden() {
